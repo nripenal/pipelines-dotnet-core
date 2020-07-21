@@ -14,4 +14,4 @@ variables:
 
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
-  displayName: 'dotnet build $(buildConfiguration) for $(vmImage)'
+  displayName: 'dotnet build $(buildConfiguration) for vmImage name'
